@@ -47,9 +47,11 @@ thunderbird-sender-cleanup/
 
 The add-on uses a **Thunderbird Experiment API** to access privileged browser internals. It attaches a `MutationObserver` to the mail thread pane and strips the `<email@example.com>` part from every `span.sender` element whenever the message list updates.
 
-## 🎨 Recommended: Proton Mail Theme
+## 🎨 Pairs well with: Thunderbird Proton Theme
 
-This add-on pairs well with a custom `userChrome.css` Proton Mail theme for Thunderbird. The following CSS rule ensures the date and three-dot menu stay right-aligned after sender names are shortened:
+This add-on was built alongside the **[Thunderbird Proton Theme](https://github.com/tinyprojekt/thunderbird-proton-theme)** – a custom `userChrome.css` that brings the clean, dark aesthetic of Proton Mail to Thunderbird.
+
+To ensure the date and three-dot menu stay right-aligned after sender names are shortened, add this to your `userChrome.css`:
 
 ```css
 #threadTree tr[is="thread-card"] .sender {
@@ -60,6 +62,8 @@ This add-on pairs well with a custom `userChrome.css` Proton Mail theme for Thun
     text-overflow: ellipsis !important;
 }
 ```
+
+👉 **[View Thunderbird Proton Theme →](https://github.com/tinyprojekt/thunderbird-proton-theme)**
 
 ## 📄 License
 
