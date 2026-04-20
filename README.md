@@ -16,9 +16,11 @@ A Thunderbird experiment add-on that **hides email addresses in the card view** 
 
 ## 📦 Installation
 
-### Option A: Manual (XPI file)
+### Option A: Direct Download (recommended)
 
-1. Download the latest `.xpi` from [Releases](https://github.com/tinyprojekt/thunderbird-sender-cleanup/releases)
+👉 **[Download sender-cleanup-v1.0.xpi](https://github.com/tinyprojekt/thunderbird-sender-cleanup/releases/download/v1.0/sender-cleanup-v1.0.xpi)**
+
+1. Download the `.xpi` file above
 2. In Thunderbird: **Add-ons Manager** → gear icon → **Install Add-on From File…**
 3. Select the `.xpi` file and confirm
 
